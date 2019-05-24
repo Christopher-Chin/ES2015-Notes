@@ -60,3 +60,20 @@ console.log("Second fraction result: ", secondFraction);
 console.log("Fraction " + fractionResult[0] + " with a value of " + fractionResult[1] + " is the biggest!");
 
   
+/* 
+
+Immediately invoked function expressions, runs the function when it's encountered. 
+value is going to be stored inside theBiggest variable.
+
+What are the benefits of this immediately invoked function expression?
+It runs immediately where it's located in the code and produces direct output.
+
+That means on the first run, it is uneffected by code which appears further down in the script.
+These functions are great for quickly populating a variable or argument in a larger function or a property in an object. 
+These are often hooked to event listeners. 
+*/
+
+var firstFraction = 7
+var theBiggest = (function(a,b){
+ a>b ? result = ["a",a] : result = ["b",b]; 
+})(
