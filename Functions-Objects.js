@@ -80,3 +80,49 @@ var theBiggest = (function(a,b){
 })(firstFraction,secondFraction)
 
 console.log(theBiggest);
+
+
+/*
+ES6 Two types of variables 
+const - constant
+Can't be changed once defined  
+
+let - 
+block scope variable
+Smaller scope than var
+
+const MYCONSTANT = 5; 
+*/
+
+// Difference between let and var.
+// The value of var will change inside the nested if statement permenantly. 
+
+function logScope(){
+  let localVar = 2; 
+  
+  if (localVar){
+     let localVar = "I'm different!";
+     console.log("nested localVar:", localVar);
+  }
+ console.log("logScope localVar:", localVar); 
+}
+
+// output nested localVar: I'm different!
+// logScope localVar: 2
+
+
+
+function logScope(){
+  var localVar = 2; 
+  
+  if (localVar){
+     var localVar = "I'm different!";
+     console.log("nested localVar:", localVar);
+  }
+ console.log("logScope localVar:", localVar); 
+}
+
+// output nested localVar: I'm different!
+// logScope localVar: I'm different!
+
+
