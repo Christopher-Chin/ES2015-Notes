@@ -73,7 +73,10 @@ These functions are great for quickly populating a variable or argument in a lar
 These are often hooked to event listeners. 
 */
 
-var firstFraction = 7
+var firstFraction = 7/9;
+var secondFraction = 13/25;
 var theBiggest = (function(a,b){
  a>b ? result = ["a",a] : result = ["b",b]; 
-})(
+})(firstFraction,secondFraction)
+
+console.log(theBiggest);
