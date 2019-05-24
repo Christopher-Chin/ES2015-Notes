@@ -1,4 +1,4 @@
-*/There are three types of functions 
+/*There are three types of functions 
 
 - Named Functions (Executed when called by name) 
 - Anonymous functions (Once they are triggered by a spcific event) 
@@ -10,6 +10,12 @@ Not having to set a name for an anonymous function is just a convenience thing s
 the name of the function doesn’t really matter. Most of the time anonymous functions and named 
 functions will both do any job perfectly well.
 
+
+For me function expressions express the true nature of functions; that they are objects that can be passed around 
+and stored in variables. It also forces my code to be better organized because a function expression is not hoisted; 
+so I must define the function before I use it.
+
+https://www.youtube.com/watch?v=gjLn95skIKE
 */
 
 //Regular function, called by name: 
