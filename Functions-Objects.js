@@ -1,24 +1,23 @@
 /*There are three types of functions 
 
 - Named Functions (Executed when called by name) 
-- Anonymous functions (Once they are triggered by a spcific event) 
+- Anonymous functions (Once they are triggered by a specific event) 
 - Immediately invoked function expressions (Run the moment the browser encounters them) 
 
-why are anonymous functions useful? 
+Why are Anonymous Functions useful? 
 
 Not having to set a name for an anonymous function is just a convenience thing since in most cases 
 the name of the function doesn’t really matter. Most of the time anonymous functions and named 
 functions will both do any job perfectly well.
 
-
-For me function expressions express the true nature of functions; that they are objects that can be passed around 
+For me function expressions express the true nature of functions,  they are objects that can be passed around 
 and stored in variables. It also forces my code to be better organized because a function expression is not hoisted; 
 so I must define the function before I use it.
 
 https://www.youtube.com/watch?v=gjLn95skIKE
 */
 
-//Regular function, called by name: 
+//Regular function, called by name
 
 function multiply(){
   var result = 3 * 4;
