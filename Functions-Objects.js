@@ -1,7 +1,7 @@
 /*There are three types of functions 
 
 - Named Functions (Executed when called by name) 
-- Anonymous functions (Once they are triggered by a specific event) 
+- Anonymous functions (Triggered by a specific event) 
 - Immediately invoked function expressions (Run the moment the browser encounters them) 
 
 Why are Anonymous Functions useful? 
